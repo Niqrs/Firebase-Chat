@@ -13,4 +13,12 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Firebase Chat"
-include ':app'
+include(":app")
+include(":core")
+include(":core-ui")
+include(":auth:ui")
+include(":auth:data")
+include(":auth:domain")
+include(":profile:ui")
+include(":profile:data")
+include(":profile:domain")
