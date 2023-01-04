@@ -16,6 +16,7 @@ rootProject.name = "Firebase Chat"
 include(":app")
 include(":core")
 include(":core-ui")
+include(":core-utils")
 include(":auth:ui")
 include(":auth:data")
 include(":auth:domain")
